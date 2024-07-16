@@ -180,4 +180,6 @@ token刷新是为了方便用户
         //token的刷新拦截器
         registry.addInterceptor(new RefreshTokenInterceptor(stringRedisTemplate)).order(0);
     }
-}
+    }
+### 2.基于redis实现缓存作用
+
